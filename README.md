@@ -32,8 +32,8 @@
 ## Installation
 You can quickly set up a new `spact` project by downloading and running the CLI script:
 
-```sh
-curl -o- https://raw.githubusercontent.com/yourusername/spact/main/spact-cli.js | node - init my-spact-project
+  ```sh
+  curl -o- https://raw.githubusercontent.com/yourusername/spact/main/spact-cli.js | node - init my-spact-project
 
 This command will create a new project directory with the basic structure and example files.
 
