@@ -39,7 +39,7 @@ To automatically install SPact and set up your environment, follow these steps:
 1. **Download and Run the Installer:**
 
    ```bash
-   curl -L -o install_spactcli.sh https://raw.githubusercontent.com/sprdgx/spactCli/main/install_spactcli.sh
+   sudo curl -fsSL https://raw.githubusercontent.com/sprdgx/SPACT/main/Spact-Cli/install_spactcli.sh | sudo bash -s /usr/local/bin
    ```
 
 This script will download the SPact CLI tools, install them , and create a symbolic link to the spact command.
