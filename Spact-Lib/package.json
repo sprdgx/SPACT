@@ -1,0 +1,28 @@
+{
+    "name": "spact",
+    "version": "1.0.0",
+    "description": "A lightweight JavaScript library for creating components and managing state.",
+    "main": "sact.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react",
+      "jsx",
+      "state management",
+      "component library"
+    ],
+    "author": "SPRD",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sprdgx/sact-js.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sprdgx/sact-js/issues"
+    },
+    "homepage": "https://github.com/sprdgx/sact-js#readme",
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
