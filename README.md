@@ -79,7 +79,7 @@ The development server will start, and your application will be accessible at ht
 
    ```bash
    cd <project_name>
-   spact start
+   spact build
    ```
 
 This command will generate the production-ready files and place them in the dist directory. You can then deploy these files to your web server.
@@ -115,6 +115,45 @@ Components are the building blocks of a SPact application. Here’s a basic exam
 
    ```
 
+### Routing
+
+SPact includes a simple routing mechanism. Here’s how you can define and use routes:
+
+
+   ```js
+import { ce, addRoute, renderWithRouter } from 'spact';
+import { MyComponent } from './components/MyComponent';
+
+addRoute('/', MyComponent);
+
+const rootContainer = document.getElementById('root');
+renderWithRouter(null, rootContainer);
+   ```
+
+# Configuration
+SPact can be configured using Webpack. Refer to the webpack.config.js and webpack.prod.js files for configuration details.
+
+## Contributing
+
+If you’d like to contribute to SPact, please follow these guidelines:
+
+1. **Fork the repository and clone your fork.**
+2. **Create a new branch for your changes.**
+3. **Make your changes and commit them.**
+4. **Push your changes and open a pull request.**
+
+# FAQ
+
+### Q: How do I update SPact?
+
+   **A: Run the installation script again to get the latest version.**
+
+### Q: Can I use SPact with other libraries or frameworks?
+
+**A: Yes, SPact is designed to be lightweight and can be integrated with other tools and libraries.**
+
+# License
+SPact is licensed under the MIT License. See the LICENSE file for details.
 
 
 
