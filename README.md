@@ -5,7 +5,6 @@
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [API](#api)
   - [createElement](#createelement)
   - [render](#render)
@@ -32,28 +31,15 @@
 ## Installation
 You can quickly set up a new `spact` project by downloading and running the CLI script:
 
-      ```sh
-      curl -o- https://raw.githubusercontent.com/yourusername/spact/main/spact-cli.js | node - init my-spact-project
+    ```sh
+    curl -o- https://raw.githubusercontent.com/yourusername/spact/main/spact-cli.js | node - init my-spact-project
 
-This command will create a new project directory with the basic structure and example files.
+## API
 
-## Usage
-Here is a basic example to get you started:
+### createElement
+    ```js
+    createElement(type, props, ...children)
+    
+Creates a new element of the given type with the specified properties and children.
 
-### index.html
-
-      ```code
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spact App</title>
-        <link rel="stylesheet" href="styles.css">
-      </head>
-      <body>
-        <div id="root"></div>
-        <script type="module" src="index.js"></script>
-      </body>
-      </html>
 
