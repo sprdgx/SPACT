@@ -19,7 +19,7 @@ TMP_DIR=$(mktemp -d)
 cd "$TMP_DIR"
 
 # Download the spact package archive
-curl -L -o spactCli.tar.gz https://github.com/sprdgx/spactCli/raw/main/spactCli.tar.gz
+curl -L -o spactCli.tar.gz https://github.com/sprdgx/SPACT/raw/main/Spact-Cli/spactCli.tar.gz
 
 # Extract the archive
 tar -xzvf spactCli.tar.gz
